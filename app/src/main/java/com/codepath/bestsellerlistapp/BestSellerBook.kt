@@ -20,6 +20,15 @@ class BestSellerBook {
     @SerializedName("author")
     var author: String? = null
 
+    @SerializedName("book_image")
+    var bookImageUrl: String? = null
+
+    @SerializedName("description")
+    var description: String? = null
+
+    @SerializedName("amazon_product_url")
+    var amazonUrl: String? = null
+
     //TODO bookImageUrl
 
 
